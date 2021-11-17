@@ -11,7 +11,9 @@ class DashboardController extends Controller
     public function dashboard()
     {
         $users = User::all();
-        $dashboard = Dashboard::all();
+        $dashboard = Dashboard::first();
+        // dd($dashboard)->firs;
+
         return view('welcome', compact('users', 'dashboard'));
     }
 }

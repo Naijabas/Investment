@@ -108,7 +108,7 @@
                         {{-- <div class="widget-subheading">People Interested</div> --}}
                     </div>
                     <div class="widget-content-right">
-                        <div class="widget-numbers text-white"><span>%</span></div>{{ $dashboard->total_growth }}
+                        <div class="widget-numbers text-white"><span>{{ $dashboard->total_growth }} %</span></div>
                     </div>
                 </div>
             </div>
